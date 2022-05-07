@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+.tableTheadBg{
+  background-color: #6b48ff;
+  color: white;
+}
