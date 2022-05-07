@@ -14,7 +14,7 @@ const CompCreateBlog = () => {
 
 	const store = async (e) => {
 		e.preventDefault()
-		await axios.post(URI, { title: content, content: content })
+		await axios.post(URI, { title: title, content: content })
 		navigate('/')
 	}
 
